@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5efe6" />
+    <meta name="description" content="锦里宴官方网页，主打当代川味、当季菜单、雅致包间与便捷订位。" />
+    <title>锦里宴 · 官方网页</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="锦里宴首页">
+        <span class="brand-seal">宴</span>
+        <span>
+          <strong>锦里宴</strong>
+          <small>Jinli Yan</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#menu">菜单</a>
+        <a href="#space">空间</a>
+        <a href="#visit">到店</a>
+      </nav>
+      <a class="nav-action" href="#reserve">立即订位</a>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="锦里宴介绍">
+        <div class="hero-media" role="img" aria-label="川菜餐桌与招牌热菜"></div>
+        <div class="hero-content">
+          <p class="eyebrow">CHENGDU-STYLE KITCHEN</p>
+          <h1>锦里雅宴，川味入席。</h1>
+          <p class="hero-copy">
+            以四川郫县豆瓣、汉源花椒和每日鲜备食材为底，呈现有层次、有分寸、适合细品的一席川味。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#reserve">预订餐桌</a>
+            <a class="ghost-button" href="#menu">查看菜单</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="营业摘要">
+          <span>今日营业</span>
+          <strong>11:00 - 22:00</strong>
+          <p>午市、晚市均可订位；6 人以上建议提前一天预约包间。</p>
+        </aside>
+      </section>
+
+      <section class="intro-band" aria-label="餐馆特色">
+        <div>
+          <span>招牌</span>
+          <strong>水煮鱼 · 麻婆豆腐 · 回锅肉</strong>
+        </div>
+        <div>
+          <span>口味</span>
+          <strong>可选微辣 / 标准 / 重辣</strong>
+        </div>
+        <div>
+          <span>适合</span>
+          <strong>朋友聚餐、家庭饭局、商务包间</strong>
+        </div>
+      </section>
+
+      <section class="section section-split" id="story">
+        <div class="section-copy">
+          <p class="eyebrow">OUR TABLE</p>
+          <h2>把家常川味，做得更细一点。</h2>
+          <p>
+            锦里宴从一口锅气开始：现炒底料、鲜切配菜、分锅调味。我们不追求一味地辣，而是在麻、辣、鲜、香之间保留层次，让每一道菜都适合被慢慢夹起、认真下饭。
+          </p>
+        </div>
+        <div class="story-photo" role="img" aria-label="厨师正在制作川菜"></div>
+      </section>
+
+      <section class="section" id="menu">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SEASONAL MENU</p>
+            <h2>今日推荐</h2>
+          </div>
+          <div class="menu-tabs" role="tablist" aria-label="菜单分类">
+            <button class="menu-tab active" type="button" data-category="all">全部</button>
+            <button class="menu-tab" type="button" data-category="signature">招牌</button>
+            <button class="menu-tab" type="button" data-category="house">家常</button>
+            <button class="menu-tab" type="button" data-category="fresh">清爽</button>
+          </div>
+        </div>
+
+        <div class="menu-grid" id="menu-grid">
+          <article class="dish-card" data-category="signature">
+            <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80" alt="水煮鱼" />
+            <div>
+              <span>招牌</span>
+              <h3>锦里水煮鱼</h3>
+              <p>现片鱼肉、红油汤底、青花椒提香。</p>
+            </div>
+            <strong>¥98</strong>
+          </article>
+          <article class="dish-card" data-category="signature">
+            <img src="https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=900&q=80" alt="麻婆豆腐" />
+            <div>
+              <span>招牌</span>
+              <h3>砂锅麻婆豆腐</h3>
+              <p>牛肉臊子、嫩豆腐、花椒末收尾。</p>
+            </div>
+            <strong>¥42</strong>
+          </article>
+          <article class="dish-card" data-category="house">
+            <img src="https://images.unsplash.com/photo-1609501676725-7186f017a4b7?auto=format&fit=crop&w=900&q=80" alt="回锅肉" />
+            <div>
+              <span>家常</span>
+              <h3>青蒜回锅肉</h3>
+              <p>二刀肉煸香，配本地青蒜与甜面酱。</p>
+            </div>
+            <strong>¥58</strong>
+          </article>
+          <article class="dish-card" data-category="fresh">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80" alt="凉拌时蔬" />
+            <div>
+              <span>清爽</span>
+              <h3>藤椒拌时蔬</h3>
+              <p>脆口蔬菜、藤椒油、轻酸收味。</p>
+            </div>
+            <strong>¥36</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="section space-section" id="space">
+        <div class="section-copy">
+          <p class="eyebrow">PRIVATE DINING</p>
+          <h2>明亮大厅与安静包间。</h2>
+          <p>大厅适合热闹聚餐，包间可容纳 6-12 人。灯光克制，桌距舒展，服务节奏跟着用餐场景走。</p>
+        </div>
+        <div class="space-gallery" aria-label="餐厅空间照片">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="餐厅大厅" />
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80" alt="餐厅餐桌" />
+        </div>
+      </section>
+
+      <section class="visit-section" id="visit">
+        <div>
+          <p class="eyebrow">VISIT US</p>
+          <h2>欢迎到店</h2>
+          <p>成都市锦江区东风路 88 号 1 层</p>
+        </div>
+        <div class="visit-list">
+          <p><span>电话</span><a href="tel:028-86668888">028-8666 8888</a></p>
+          <p><span>营业</span><strong>周一至周日 11:00 - 22:00</strong></p>
+          <p><span>交通</span><strong>地铁 2 号线东门大桥站步行 6 分钟</strong></p>
+        </div>
+      </section>
+
+      <section class="reserve-section" id="reserve">
+        <div class="reserve-copy">
+          <p class="eyebrow">RESERVATION</p>
+          <h2>预订一桌热气腾腾的饭。</h2>
+          <p>留下用餐信息，我们会尽快电话确认。页面演示版会在本地显示提交结果。</p>
+        </div>
+        <form class="reserve-form" id="reserve-form">
+          <label>
+            <span>姓名</span>
+            <input name="name" type="text" placeholder="例如：李女士" required />
+          </label>
+          <label>
+            <span>电话</span>
+            <input name="phone" type="tel" placeholder="用于确认订位" required />
+          </label>
+          <label>
+            <span>人数</span>
+            <select name="guests">
+              <option>2 人</option>
+              <option>4 人</option>
+              <option>6 人</option>
+              <option>8 人以上</option>
+            </select>
+          </label>
+          <label>
+            <span>日期</span>
+            <input name="date" type="date" required />
+          </label>
+          <button class="primary-button" type="submit">提交订位</button>
+          <p class="form-message" id="form-message" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>锦里宴</span>
+      <a href="#top">返回顶部</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
